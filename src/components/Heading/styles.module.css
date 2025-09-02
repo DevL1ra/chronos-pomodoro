@@ -1,0 +1,7 @@
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem; /* espaço entre o texto e o botao = 24px */
+
+}
