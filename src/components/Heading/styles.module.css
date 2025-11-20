@@ -1,15 +1,6 @@
 .heading {
-<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2.4rem;
 }
-=======
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.4rem; /* espaço entre o texto e o botao = 24px */
-
-}
->>>>>>> 01d1063b1e23d1ffea5e89c69fb089f9f08f7b81
