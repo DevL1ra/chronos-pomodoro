@@ -1,13 +1,13 @@
 import { Cycles } from '../Cycles';
-import { DefaultButton } from '../DefaultButton';
-import { DefaultInput } from '../DefaultInput';
+import { Defaultbutton } from '../DefaultButton';
+import { Defaultinput } from '../DefaultInput';
 import { PlayCircleIcon } from 'lucide-react';
 
 export function MainForm() {
   return (
     <form className='form' action=''>
       <div className='formRow'>
-        <DefaultInput
+        <Defaultinput
           labelText='task'
           id='meuInput'
           type='text'
@@ -24,7 +24,7 @@ export function MainForm() {
       </div>
 
       <div className='formRow'>
-        <DefaultButton icon={<PlayCircleIcon />} />
+        <Defaultbutton icon={<PlayCircleIcon />} />
       </div>
     </form>
   );
